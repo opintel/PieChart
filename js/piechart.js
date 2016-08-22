@@ -43,7 +43,7 @@
   var data = jsonPiechart;
 
 
-  var vis = d3.select('#pie-chart').append("svg:svg").data([data]).attr("width", w).attr("height", h).append("svg:g").attr("transform", "translate(" + r + "," + r + ")");
+  var vis = d3.select('#pie-chart').append("svg:svg").data([data]).attr("width", w).attr("height", h).attr("font-family","Open sans").append("svg:g").attr("transform", "translate(" + r + "," + r + ")");
   var pie = d3.layout.pie().value(function(d){return d.value;});
 
   // declare an arc generator function
@@ -89,6 +89,7 @@
       var svgLegned4 = d3.select(".svgLegend4").append("svg")
       .attr("width", w)
       .attr("height", h)
+      .attr("font-family","Open sans")
 
       var dataL = 0;
       var offset = 100;
