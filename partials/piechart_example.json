@@ -1,7 +1,14 @@
 [
-  {"label": "Alpha", "value": 20},
-  {"label": "Beta", "value": 15},
-  {"label": "Gamma", "value": 70},
-  {"label": "Delta", "value": 40},
-  {"label": "Epsilon", "value": 50}
+  {"label": "Alpha", "value": 82},
+  {"label": "Beta", "value": 71},
+  {"label": "Gamma", "value": 55},
+  {"label": "Delta", "value": 14},
+  {"label": "Epsilon", "value": 95},
+  {"label": "Epsilon2", "value": 56},
+  {"label": "Epsilon3", "value": 22},
+  {"label": "Epsilon4", "value": 85},
+  {"label": "Epsilon5", "value": 63},
+  {"label": "Epsilon6", "value": 60},
+  {"label": "Epsilon7", "value": 58},
+  {"label": "Epsilon8", "value": 33}
 ]

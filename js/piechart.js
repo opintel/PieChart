@@ -114,7 +114,9 @@
       .attr("y", 0)
       .attr("width", 20)
       .attr("height", 20)
-      .style("fill", color);
+      .attr("fill", function(d, i){
+        return color(i);
+      })
       legend4.append('text')
       .attr("x", 25)
       .attr("y", 15)
