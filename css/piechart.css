@@ -4,6 +4,18 @@
   position: relative;
 }
 
+.title-pop {
+  color: #00CC99;
+}
+
+.legend {
+  position: absolute;
+  left: 15px;
+  font-family: "Open sans";
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
 .toolTip {
   position: absolute;
 	display: none;
@@ -38,5 +50,5 @@
 }
 
 .svgLegend4 {
-  margin: 50px 0;
+  margin: 40px 0 0 65px;
 }
